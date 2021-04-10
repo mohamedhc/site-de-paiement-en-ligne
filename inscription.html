@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>inscription</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<link href="css/connexionn.css" rel="stylesheet" >
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="js/javas.js"></script>
+		<link rel="icon" href="images/logosobfloustn.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+
+	<!-- Header -->
+		<div id="header">
+			<div id="nav-wrapper"> 
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li class="active"><a href="index.html">Accueil</a></li>
+						<li><a href="connexion.html">connexion</a></li>
+						<li><a href="inscription.html">inscription</a></li>
+						<li><a href="#footer">contacter-nous</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="container"> 
+				
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="#">BHTB</a></h1>
+					<span class="tag">Facile, Immédiat et Sécurisé
+						Transfert d'argent, Paiement Factures, <br> Recharge téléphonique et Paiement Marchands.</span>
+				</div>
+			</div>
+		</div>
+	<!-- Header --> 
+
+	<!-- Main -->
+		<div id="main">
+			<div class="fm">
+			<form>
+
+				<fieldset>
+					<legend id="inscri">Formulaire d'inscription </legend><br>
+					<table>
+						<tr>
+							<td><label >Nom :</label></td>
+							<td><input type="text" placeholder="saisir votre nom"/> </td>
+						</tr>
+						<tr>
+							<td><label>Prenom :</label></td>
+							<td><input type="text" placeholder="saisir votre prenom"/></td>
+						</tr>
+						<tr>
+							<td><label>Email :</label></td>
+							<td><input id="mail"  type="email" placeholder="saisir votre Email" onchange="myFunction1()"/>
+							<p id="aa2"></p></td>
+						</tr>
+						<tr>
+							<td><label>Date de naisssance :</label></td>
+						<td><input type="date" max="2012-06-25" min="2011-08-13" name="the_date"> </td>
+					</tr>
+						<tr>
+							<td><label>Num</label></td>
+							<td><input id='num1' type="number" placeholder="saisir votre numéro de télephone" onchange="myFunction2()"  maxlength="8" minlength="8"/> <p id='demo1'> </p></td>
+						</tr>
+						<tr>
+							<td>Sexe</td>
+					
+							<td>
+								Masculin <input type="radio" name="sexe" value="M">
+								Féminin <input type="radio" name="sexe" value="F">
+							</td>
+						</tr>
+					
+						<tr>
+							<td><label>Pays</label></td>
+							<td>
+								<select>
+									<option>Tunisie</option>
+								<option>France</option>
+								<option>Italie</option>
+							</select>
+						</td>
+						</tr>
+						
+						
+					</table>
+					
+						
+					<button type="button" class="btn btn-primary btn-sm" id="ss" onclick="myFunction()">s'inscrire</button> &nbsp &nbsp &nbsp &nbsp &nbsp
+                    <a href="index.html"> <button type="button" class="btn btn-secondary btn-sm" id="ss">Annuler</button> </a><br><br>
+				    <p id='demo'> </p>
+				</fieldset>
+		</form>
+		</div>
+		</div>
+	<!-- /Main -->
+
+	
+
+	<!-- Footer -->
+	<div id="footer">
+		<div class="container">
+			<section>
+				<header>
+					<h2>Contact</h2>
+					<span class="byline">Besoin d’une information, d’une assistance? Notre priorité est de vous apporter une réponse rapide et de qualité au moment où vous en avez besoin. Trouvez ci-dessous nos différents moyens de contact</span>
+				</header>
+				<ul class="contact">
+					<li><a href="#" class="fa fa-twitter" ><span>Twitter</span></a></li>
+					<li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+					<li><a href="#" class="fa fa-tumblr"><span>Google+</span></a></li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+<!-- Copyright -->
+	<div id="copyright">
+		<div class="container">
+			<b><legend>&copy; 2021 </legend></b> 
+		</div>
+	</div>
+
+</body>
+</html>

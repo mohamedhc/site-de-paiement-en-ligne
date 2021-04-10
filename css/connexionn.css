@@ -1,0 +1,117 @@
+.fm{
+    border: 1.25px solid black;
+    padding: 20px ;
+    margin:20px 100px;
+}
+#fm2{
+    text-align: center;
+}
+.fontt{
+    font-family: 'Carter One', cursive;
+    color: #333;
+}
+.fon{
+    font-family: 'Tangerine', cursive;
+}
+.jss{
+    text-align: justify;
+}
+/*transfert*/
+#wrap{
+    text-align: center;
+}
+#titre1{
+    text-align: center;
+}
+.size{
+    width: 35%;
+}
+#btnt{
+    width: 13%;
+}
+#envoyer{
+    width: 15%;
+}
+.sizelabel{
+    font-size: 1.5em;
+}
+#titre1{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+/*recharge*/
+#block{
+    text-align: center;
+}
+#rechh{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+}
+
+/*compte*/
+#ctr{
+    text-align: center;
+}
+#btn{
+    width: 50%;
+    height: 3%;
+    font-size: 1.25em;
+}
+#btn1{
+    width: 50%;
+    height: 3%;
+    font-size: 1.25em;
+}
+#btn2{
+    width: 50%;
+    height: 3%;
+    font-size: 1.25em;
+}
+
+/*paiement*/
+#elm{
+    text-align: center;
+}
+
+div>div>nav>ul>li:hover{ background-color: rgba(0,0,0,0.1);
+
+}
+#btnp{
+    width: 13%;
+}
+#paim{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+}
+
+/* inscription*/
+td{
+    height: 40px; 
+}
+.tt{
+    width: 5px;
+    height: 1px;
+
+}
+#ss{
+    width: 15%;
+}
+.ft{
+    font-family: 'Dosis', sans-serif;
+}
+#inscri{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+/*connexion*/
+#conn{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
